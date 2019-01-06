@@ -11,7 +11,7 @@ $arr = [
 // Response::xml(200,'success',$arr);
 // Response::show(200,'success',$arr);
 $file = new File();
-if($file -> cacheData('cache',null)){
+if($file -> cacheData('testcache',null)){
 	echo "success";
 } else {
 	echo "fail";
